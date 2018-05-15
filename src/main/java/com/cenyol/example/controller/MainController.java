@@ -16,6 +16,8 @@ import java.util.List;
 /**
  * Created by sjj on 2015/10/24 0024.
  */
+
+//@Controller注解：采用注解的方式，可以明确地定义该类为处理请求的Controller类；
 @Controller
 public class MainController {
 
@@ -23,6 +25,9 @@ public class MainController {
     @Autowired
     private UserRepository userRepository;
 
+
+//    @RequestMapping()注解：用于定义一个请求映射，value为请求的url，值为 / 说明，该请求首页请求，method用以指定该请求类型，一般为get和post；
+//    return "index"：处理完该请求后返回的页面，此请求返回 index.jsp页面。
     // 首页
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String index() {

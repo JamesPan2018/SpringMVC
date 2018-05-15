@@ -6,6 +6,14 @@
 - 具体的请clone项目，使用idea直接打开查看即可；
 - user表放在resources下面
 
+
+
+ ##MVC框架有model、view、controller三部分组成。
+ - model一般为一些基本的Java Bean，
+ - view用于进行相应的页面显示，
+ - controller用于处理网站的请求。
+ 
+ 
 # Demo截图
 
 ![](https://raw.githubusercontent.com/Cenyol/SpringMVC/master/images/list.jpg)
